@@ -43,19 +43,19 @@ function Page()  {
 
     return (
         <div className="gammazoncontainer">
-            <div id="topBar">TOP NAV BAR AND SEARCH</div>
+            <div id="topBar"></div>
             <div className="outerrow">
                 <div className="innercolumn">
                     <div className="gammazonmain">
-                        <div id="b2_root">IMAGES</div>
-                        <div id="root">PRODUCT INFORMATION</div>
+                        <div id="b2_root"></div>
+                        <div id="root"></div>
                     </div>
-                    <div id="tsReviewContainer">REVIEWS WIDGET</div>
+                    <div id="tsReviewContainer"></div>
                 </div>
-                <div id="cart">SHOPPING CART</div>
+                <div id="kytrabuybox"></div>
             </div>
-            <div id="b1_root">SIMILAR PRODUCTS WIDGET</div>
-            <div id='bb'>FOOTER BAR</div>
+            <div id="b1_root"></div>
+            <div id='bb'></div>
         </div>
     )
 }
